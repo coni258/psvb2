@@ -1,0 +1,91 @@
+h1 Ficha de proceso
+
+= form_with model: @consultant do |form|
+  div 
+    = form.label :name
+    br
+    = form.text_field :name
+    - @consultant.errors.full_messages_for(:name).each do |message|
+
+      div 
+        = message
+  div 
+      = form.label :rut
+      br
+      = form.text_field :rut
+      - @consultant.errors.full_messages_for(:rut).each do |message|
+        div 
+          = message
+
+  div 
+    = form.label :age
+    br
+    = form.text_field :age
+    - @consultant.errors.full_messages_for(:age).each do |message|
+
+      div 
+        = message
+
+  div 
+    = form.label :birth_date
+    br
+    = form.text_field :birth_date
+    - @consultant.errors.full_messages_for(:birth_date).each do |message|
+
+      div 
+        = message
+
+  div 
+    = form.label :scholarship
+    br
+    = form.text_field :scholarship
+    - @consultant.errors.full_messages_for(:scholarship).each do |message|
+
+      div 
+        = message
+
+  div 
+    = form.label :street_adress
+    br
+    = form.text_field :street_adress
+    - @consultant.errors.full_messages_for(:street_adress).each do |message|
+
+      div 
+        = message
+  div 
+    = form.label :health_system
+    br
+    = form.text_field :health_system
+    - @consultant.errors.full_messages_for(:health_system).each do |message|
+
+      div 
+        = message
+  div 
+    = form.label :responsible_adult
+    br
+    = form.text_field :responsible_adult
+    - @consultant.errors.full_messages_for(:responsible_adult).each do |message|
+
+      div 
+        = message
+
+  div 
+    = form.label :age_responsible_adult
+    br
+    = form.text_field :age_responsible_adult
+    - @consultant.errors.full_messages_for(:age_responsible_adult).each do |message|
+
+      div 
+        = message
+
+  div 
+    = form.label :rut_responsible_adult
+    br
+    = form.text_field :rut_responsible_adult
+    - @consultant.errors.full_messages_for(:rut_responsible_adult).each do |message|
+
+      div 
+        = message
+  div
+    br 
+    = form.submit

@@ -1,0 +1,12 @@
+<h1> Consultantes</h1>
+
+<ul>
+  <% @consultants.each do |consultant| %>
+    <li>
+      <%= link_to consultant.name, consultant %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New consultant", new_consultant_path %>

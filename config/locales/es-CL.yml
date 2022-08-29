@@ -1,0 +1,6 @@
+es-CL:
+  consultants:
+    new:
+      name: 'Nombre'
+      rut: 'rut'
+      age: 'Edad'
