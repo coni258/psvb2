@@ -1,6 +1,13 @@
 es-CL:
   consultants:
     new:
-      name: 'Nombre'
-      rut: 'rut'
-      age: 'Edad'
+      name: Nombre
+      rut: RUT
+      age: Edad
+      birth_date: Fecha de nacimiento
+      scholarship: Escolaridad
+      street_adress: Dirección
+      health_system: Sistema de salud
+      responsible_adult: Adulto responsable
+      age_responsible_adult: Edad del adulto responsable
+      rut_responsible_adult: Rut del adulto responsable

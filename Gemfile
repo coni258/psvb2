@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "slim-rails"
+gem 'bootstrap', '~> 5.2.0'
+gem 'jquery-rails'

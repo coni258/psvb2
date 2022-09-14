@@ -18,5 +18,16 @@ module Psvb2
     #
     config.time_zone = "America/Santiago"
     # config.eager_load_paths << Rails.root.join("extras")
+    
+    # config/initializers/locale.rb
+
+    config.i18n.enforce_available_locales = false
+
+    # Permitted locales available for the application
+    I18n.available_locales = 'es-CL'
+
+    # Set default locale to something other than :en
+    I18n.default_locale = :'es-CL'
+
   end
 end
